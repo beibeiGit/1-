@@ -1,0 +1,111 @@
+#footor_wrap{
+    width: 100%;
+    color: #666666;
+}
+.footor-ul{
+    width: 1200px;
+    height: 132px;
+    margin: 20px auto;
+}
+.footor-ul ul{
+    float: left;
+    margin-right: 208px;
+    list-style: none;
+    font-size: 14px;
+}
+.footor-ul ul h3{
+    line-height: 50px;
+}
+.footor-ul ul li{
+    line-height: 30px;
+}
+.link{
+    /*margin-top: 30px;*/
+    width: 100%;
+    height: 89px;
+    overflow: hidden;
+}
+.link img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.about-link{
+    background: white;
+    width: 100%;
+    height: 200px;
+
+}
+.about-link .top{
+    width: 410px;
+   margin: 0px auto 0px;
+    overflow: hidden;
+}
+.about-link .top span{
+    float: left;
+    display: block;
+    width: 69px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    border-right: 1px solid;
+}
+.about-link p{
+    text-align: center;
+    line-height: 50px;
+}
+.about-link .call{
+    width: 500px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.about-link .call span{
+    margin-right: 20px;
+}
+ul[ul] li:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+li span:hover{
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+/*.yinyue{*/
+    /*width: 581px;*/
+    /*height: 57px;*/
+    /*margin: 50px 0px 0px 30% ;*/
+/*}*/
+/*.yinyue>span{*/
+    /*display: block;*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*float: left;*/
+    /*margin-right:26px ;*/
+/*}*/
+/*.yinyue>span:nth-child(1){*/
+    /*background: url(../images/yinyue_duo.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(2){*/
+    /*background: url(../images/yinyue_lai.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(3){*/
+    /*background: url(../images/yinyue_mi.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(4){*/
+    /*background: url(../images/yinyue_fa.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(5){*/
+    /*background: url(../images/yinyue_suo.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(6){*/
+    /*background: url(../images/yinyue_la.png)no-repeat*/
+/*}*/
+/*.yinyue>span:nth-child(7){*/
+    /*background: url(../images/yinyue_xi.png)no-repeat*/
+/*}*/
+/*.yinyue>span:hover{*/
+    /*background-position:0px -57px;*/
+    /*animation: 1s linear 0s normal none 1 running su-pudding;*/
+/*}*/

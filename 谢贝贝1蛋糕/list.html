@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>壹蛋糕</title>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" href="images/favicon.ico">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/listData.js"></script>
+    <script src="js/list.js"></script>
+</head>
+<body onselectstart="return false">
+<div id="header"></div>
+
+<div class="content-wrap">
+    <h1>壹蛋糕</h1>
+    <h2>Yi Cake</h2>
+    <img src="images/three_points01.png" alt="">
+    <h3>列表<span class="pen"></span></h3>
+    <div class="content" id="articleList">
+        <div class="contentA">
+            <div class="img1">
+                <img src="images/goodscate01.jpg" alt="">
+                <!--<img src="images/list_img_over_xiaojiantou.png" alt=""class="xiaoimg" >-->
+            </div>
+            <div class="content-text">
+                <h3>胜林三境重装出发</h3>
+                <p>2016-02-03</p>
+                <p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+            </div>
+        </div>
+    </div>
+    <img src="images/list_gomore_bg.jpg" alt=""style="margin-top: 100px" class="goImg">
+    <div class="more"></div>
+</div>
+<div id="itemHtml" style="display: none">
+    <div class="contentA" articleid="$articleId$">
+        <div class="img1">
+            <img src="$articleCover$" alt="">
+            <!--<img src="images/list_img_over_xiaojiantou.png" alt=""class="xiaoimg" >-->
+        </div>
+        <div class="content-text">
+            <h3>$articleTitle$</h3>
+            <!--<p>$updateTime$</p>-->
+            <p>$describe$</p>
+        </div>
+    </div>
+</div>
+
+<div id="footer"></div>
+</body>
+</html>

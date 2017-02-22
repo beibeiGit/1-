@@ -1,0 +1,146 @@
+img{
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: white;
+    box-shadow: 2px 4px 2px #857472;
+}
+.header-middle{
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header-middle>img{
+    display: block;
+    float: left;
+    margin-top: 9px;
+}
+.nav_wrap{
+    /*width: 900px;*/
+    height: 100px;
+    float: left;
+    /*background: yellow;*/
+    margin-left: 60px;
+}
+.nav{
+    float: left;
+    margin-top: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+    /*width: 90px;*/
+    /*height: 50px;*/
+}
+.nav h1{
+    font-size: 20px;
+    font-family: "楷体";
+    line-height: 30px;
+    width: 90px;
+    text-align: center;
+}
+.down h1{
+    width: 135px;
+    background: url("../images/nav_xiajiantou.png")no-repeat right center;
+}
+.nav ul{
+    position: absolute;
+    font-size: 16px;
+    width: 110px;
+    z-index: 99;
+    left:10px;
+    display: none;
+}
+.down{
+    position: relative;
+}
+.down a{
+    color: black;
+}
+.down h1:hover{
+    transition: all 0.5s ease 0s;
+    background: url("../images/nav_xiajiantou_hover.png")no-repeat right center;
+}
+.nav ul li{
+    line-height: 35px;
+    padding-left: 5px;
+    background: #D33C5D;
+}
+.nav ul li:hover{
+    padding-left: 20px;
+    background:#D33C5D url("../images/nav_li_bg.png")no-repeat 100px center;
+}
+.nav ul img{
+    display: block;
+    margin-left: 35px;
+}
+.shopping {
+    float: right;
+    width: 200px;
+    line-height: 30px;
+    background: #aaaaaa;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.shopping span a{
+    color:blue;
+}
+.shopping span{
+    border-right:1px solid gold ;
+    margin-left: 6px;
+    color: blue;
+    cursor: pointer;
+}
+ .uplode{
+     position: fixed;
+     width: 300px;
+     height: 400px;
+     top:50%;
+     background: papayawhip;
+     margin-top: -200px;
+     left:50%;
+     margin-left: -150px;
+     z-index: 999;
+ }
+.up1,.up2{
+    display: none;
+ }
+.uplode p{
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.uplode p:hover{
+    color:palevioletred;
+}
+.uplode input{
+    display: block;
+    margin:15px auto;
+    width: 230px;
+    line-height:20px;
+}
+.uplode i{
+    font-style: normal;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+}
+.uplode button{
+    display: block;
+    width: 250px;
+    line-height: 30px;
+    background: palevioletred;
+    color: white;
+    border: none;
+    outline: none;
+    margin: auto;
+}
+.uplode .qww{
+    margin: 10px;
+}
+.uplode .TT{
+    width: 250px;
+    line-height: 20px;
+    margin: 30px auto;
+    color: plum;
+}

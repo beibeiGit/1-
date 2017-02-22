@@ -1,0 +1,112 @@
+.content-wrap{
+    /*width: 100%;*/
+    width: 1100px;
+    margin:5px auto 0px;
+    overflow: hidden;
+    background: pink;
+}
+
+.content-wrap>h1{
+    margin-top: 120px;
+    font-size: 54px;
+    color: #311759;
+    text-align: center;
+    line-height: 60px;
+}
+
+.content-wrap>h2{
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 18px;
+    color: #311759;
+}
+
+.content-wrap>img{
+    display: block;
+    margin: 0  auto;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.content-wrap>h3{
+    width: 780px;
+    color: #311759;
+    margin: 0 auto;
+    font-size: 30px;
+    background: url(../images/pen_line_long.png) no-repeat 0 58px;
+    height: 60px;
+    position: relative;
+}
+
+.content-wrap>h3>span {
+    display: block;
+    width: 61px;
+    position: absolute;
+    height: 58px;
+    right: 0;
+    top: 6px;
+    cursor: pointer;
+    background: url("../images/pen_list.png") no-repeat;
+}
+
+.content-wrap>h3>span:hover {
+    background-position-x: -61px;
+}
+#cover{
+   margin: 40px;
+}
+.content{
+    width: 780px;
+    margin: 0 auto;
+    line-height: 50px;
+}
+.content>img{
+    margin-top: 40px;
+}
+.xin{
+    width: 73px;
+    height: 73px;
+    position: relative;
+    left: 50%;
+    top:100px;
+    margin-bottom: 200px;
+    /*overflow: hidden;*/
+    z-index: 99;
+}
+.xinxin{
+    width:73px;
+    height: 73px;
+    position: absolute;
+    float: left;
+    overflow: hidden;
+    background: url("../images/article_iflike.png")no-repeat;
+}
+.xin p{
+    position: absolute;
+    width: 135px;
+    line-height: 35px;
+    top:20px;
+    left: 73px;
+    float: left;
+    color: yellowgreen;
+    text-align: center;
+    letter-spacing: 3px;
+    background: url("../images/article_iflike_nomberbg.png")no-repeat;
+}
+.xinxin:hover {
+    width: 220px;
+    transition: all 1s ease 0s;
+    animation: 1s linear 0s normal none 1 running su-pudding;
+}
+.xin .weiwu{
+    width: 250px;
+    position: absolute;
+    line-height: 50px;
+    background: #bbbbbb;
+    font-size: 30px;
+    text-align: center;
+    left:-100px;
+    top:-100px;
+    opacity: 0;
+    /*z-index: -2;*/
+}
